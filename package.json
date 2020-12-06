@@ -1,0 +1,29 @@
+{
+  "name": "@ratte/core",
+  "version": "0.0.1",
+  "description": "NodeJS-based modular framework",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "exit 0;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polym-team/ratte-core.git"
+  },
+  "keywords": [
+    "ratte",
+    "framework"
+  ],
+  "author": "Tim Kang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/polym-team/ratte-core/issues"
+  },
+  "homepage": "https://github.com/polym-team/ratte-core#readme",
+  "dependencies": {
+    "@nestjs/common": "^7.5.5",
+    "@nestjs/core": "^7.5.5",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.6.3"
+  }
+}
